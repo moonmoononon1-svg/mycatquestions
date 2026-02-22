@@ -1,0 +1,24 @@
+/* App-specific styles */
+
+/* Ensure smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background-color: #1A1A1A;
+  color: #FAF9F7;
+}
+
+/* Focus styles */
+*:focus-visible {
+  outline: 2px solid #1A1A1A;
+  outline-offset: 2px;
+}
+
+/* Button focus override */
+button:focus-visible {
+  outline: 2px solid #1A1A1A;
+  outline-offset: 2px;
+}
